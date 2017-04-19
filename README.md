@@ -1,6 +1,6 @@
 # THIS IS README 
 ## feinno-tang 的
-###this is feature1 branch
+###this is feature1 branch after merge
 *1 列表1
 *2 列表2
 *3 列表3

@@ -4,7 +4,7 @@
 *2 列表2
 *3 列表3
 
-> 这里是引用 yyjc-edit 
+> 这里是引用 yyjc-edit commit with emoji  :tada: :octocat: :zap:
 
 要注意文本和内容之间的空格
 要注意文本和内容之间的空格

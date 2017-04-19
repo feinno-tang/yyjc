@@ -1,6 +1,6 @@
 # THIS IS README 
 ## feinno-tang 的
-###git after bug issue
+###before bug
 ###this is feature1 branch after merge
 *1 列表1
 *2 列表2

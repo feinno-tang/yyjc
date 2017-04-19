@@ -1,7 +1,6 @@
 # THIS IS README 
 ## feinno-tang 的
-### this is branch
-###this is dev branch
+###this is feature1 branch
 *1 列表1
 *2 列表2
 *3 列表3

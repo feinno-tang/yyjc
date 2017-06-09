@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定宽度弹层居中 + 单按钮居中 + 双按钮左右对齐 + 居中含图片列表</title>
+    <style type="text/css">
+        .bg{
+            position: fixed;
+            width:100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+        .pop{
+            position: absolute;
+            width: 500px;
+            left: 50%;
+            top: 100px;
+            margin-left: -250px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+        .title{
+            height:40px;
+            line-height: 40px;
+            margin: 0;
+            border-radius: 4px 4px 0 0;
+            background-color: #0bc2c6 ;
+        }
+        .content{
+            margin:10px;
+            line-height: 16px;
+            min-height: 150px;
+        }
+        .btn{
+            height: 40px;
+            text-align: center;
+        }
+        .btn a{
+            background: #0bc2c6;
+            border-radius: 4px;
+            padding: 5px 15px;
+            text-decoration: none;
+        }
+        .btn_flex{
+            height:40px;
+            display: -webkit-box;  /* 老版本语法: Safari,  iOS, Android browser, older WebKit browsers.  */
+            display: -moz-box;    /* 老版本语法: Firefox (buggy) */
+            display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+            display: -webkit-flex;  /* 新版本语法： Chrome 21+ */
+            display: flex;       /* 新版本语法： Opera 12.1, Firefox 22+ */
+
+            /*垂直居中*/
+            /*老版本语法*/
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            /*混合版本语法*/
+            -ms-flex-align: center;
+            /*新版本语法*/
+            -webkit-align-items: center;
+            align-items: center;
+
+            /*水平居中*/
+            /*老版本语法*/
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            /*混合版本语法*/
+            -ms-flex-pack: center;
+            /*新版本语法*/
+            -webkit-justify-content: center;
+            justify-content: center;
+        }
+        .btn_flex a{
+            display: block;
+            margin-right: 10px;
+            border-radius: 4px;
+            padding: 5px 15px;
+            text-decoration: none;
+            background: #0bc2c6;
+        }
+        .btn1{
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+<!-- 放在body目录下 一级子元素--->
+    <div class="bg">
+        <div class="pop">
+            <p class="title">title 1111111</p>
+            <div class="content">content 1111111</div>
+            <div class="btn">
+                <a href="javascript:;" >btn1</a>
+            </div>
+            <div class="btn_flex">
+                <a class="btn1" href="javascript:;" >btn1</a>
+                <a href="javascript:;" >btn2</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
